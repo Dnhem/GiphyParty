@@ -1,5 +1,5 @@
 async function fetchGif(gif) {
-  const res = await axios.get("http://api.giphy.com/v1/gifs/search", {
+  const res = await axios.get("https://api.giphy.com/v1/gifs/search", {
     params: {
       q: gif,
       api_key: "MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym",
